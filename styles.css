@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#mensaje {
+  font-weight: bold;
+  margin-top: 10px;
+}

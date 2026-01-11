@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Mi simulador</title>
-    
+    <link rel="stylesheet" href="styles.css">
+    <title>Simulador de Compras</title>
 </head>
-<body>
-    <h1 id="titulo">Simulador de compra</h1>
-    <p>Bienvenido al simulador de compra!</p>
 
-    <script src="archivo.js"></script>
+<body>
+
+  <h1>Simulador de Compras</h1>
+
+  <h2>Productos disponibles</h2>
+  <ul id="listaProductos"></ul>
+
+  <input type="text" id="productoInput" placeholder="Escriba un producto">
+  <button id="comprarBtn">Comprar</button>
+
+  <p id="mensaje"></p>
+
+  <h3>Carrito</h3>
+  <ul id="carrito"></ul>
+
+  <script src="main.js"></script>
 </body>
 </html>
